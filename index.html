@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>In Picture</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body onload="initGame()">
+
+
+    <div class='container'>
+
+        <div class="background-image">
+
+            <h1>In Tounch Numbers</h1>
+
+            <div class='difficulty'>
+
+                <p>Choose Difficulty</p>
+                <button class='button easy selected' onclick="easyLevel(this)" class='button'>16</button>
+                <button class='button medium' onclick="mediumLevel(this)" class='button'>25</button>
+                <button class='button hard' onclick="hardLevel(this)" class='button'>36</button>
+
+            </div>
+
+        </div>
+
+
+
+        <div class='timerDiv'>
+            <h2>Time:</h2>
+            <p1 class='timer'></p1>
+        </div>
+
+
+
+        <!-- <div class='timerDiv'>
+            <h2>Congradulations!<br>your score is:</h2>
+            <p1 class='timer'></p1>
+            <hr>
+            <button class="button reset-button" onclick="initGame()">RESET GAME</button>
+        </div> -->
+
+
+
+        <div class="table-container">
+
+            <table class='table'>
+                <tbody class='board'></tbody>
+            </table>
+
+
+        </div>
+
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

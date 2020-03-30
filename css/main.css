@@ -1,0 +1,114 @@
+body {
+    background-color: black;
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+}
+
+.container h1 {
+    text-shadow: 3px 3px 5px black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    text-align: center;
+    color: white;
+}
+
+.background-image {
+    background-image: url("../img/mainbg.jpg");
+    height: 12em;
+    background-size: 100%;
+}
+
+.difficulty {
+    text-shadow: 3px 3px 5px black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+p {
+    font-size: large;
+    color: white;
+}
+
+.button {
+    margin-top: 5px;
+    font-weight: bolder;
+    background-color: #7a9dd6;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 75px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.selected {
+    background-color: #344259;
+    border: 2px solid #7a9dd6;
+    height: 60px;
+    width: 85px;
+}
+
+.timerDiv {
+    padding: 5px;
+    color: white;
+    text-shadow: 3px 3px 5px black;
+    background-color: #344259;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.timer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    /* margin: 0 auto; */
+}
+
+.table-container {
+    background-color: #dddddd;
+    padding: 30px;
+}
+
+.table {
+    margin: auto;
+    border: 20px solid #dddddd;
+}
+
+.board {
+    margin: 0 auto;
+    color: antiquewhite;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.cell {
+    background-image: url("../img/cellbg.png");
+    background-size: 100%;
+    height: 65px;
+    width: 65px;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px #888888;
+    text-shadow: 1px 1px 5px black;
+}
+
+.clicked {
+    background-image: url("../img/cellbgr.png");
+    background-size: 100%;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0);
+}
+
+.reset-button {
+    width: 15%;
+    margin: auto;
+    transition: 0.2s;
+}
+
+.reset-button:hover {
+    background-color: #344259;
+    border: 2px solid #7a9dd6;
+    width: 250px;
+    margin: auto;
+}
